@@ -1,0 +1,13 @@
+james@pop-os:~/courses/csc221/hw2/ch13$ code myscript.sh .
+james@pop-os:~/courses/csc221/hw2/ch13$ ls -l myscript.sh
+-rw-r--r-- 1 james james 108 Feb 24 14:24 myscript.sh
+james@pop-os:~/courses/csc221/hw2/ch13$ ./myscript.sh
+bash: ./myscript.sh: Permission denied
+james@pop-os:~/courses/csc221/hw2/ch13$ chmod u+x ./myscript.sh
+james@pop-os:~/courses/csc221/hw2/ch13$ ./myscript.sh
+Here are the files in your current directory
+myscript.sh  README.md
+james@pop-os:~/courses/csc221/hw2/ch13$ 
+
+
+

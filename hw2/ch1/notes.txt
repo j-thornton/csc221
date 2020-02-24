@@ -1,0 +1,22 @@
+EXAMPLE
+
+
+    ls -l /home/james
+    total 3
+    drwxr-xr-x  2 james users 4096 Mar 23 13:34 bin
+    drwxr-xr-x 18 james users 4096 Feb 17 09:12 Documents
+    drwxr-xr-x  2 james users 4096 May 05 17:25 public_html
+
+Line 1:
+    Command line arguments, and the first ARG is usually
+    the [option]
+    Usually used to modify the behaviour of the Command.
+    Listed before ARGs and start with a dash[-]
+Line 2-5:
+    Outputs from running the command.
+    Most produce output and it'll be listed under the
+    issued command.
+Line 6:
+    Gives the command prompt again. After command is ran
+    and terminal is then ready to recieve another command.
+    
